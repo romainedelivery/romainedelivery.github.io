@@ -10,30 +10,46 @@ body {
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #FBFBFB;
+    font-weight: normal;
+
 }
 
 nav {
-	height: 50px;
+	height: 75px;
 	width:100%;
 	display: block;
-	background-color: #C10D43;
+	/*background-color: #C10D43;*/
+	background-color: #7DAF9C;
 	position: relative;
+}
+
+.navbar-content h1 {
+	color:white;
+	text-align: center;
+	padding: 0.45rem;
+	font-family: 'Playfair Display', serif;
+	font-size: 45px;
+	margin: 0;
+
 }
 
 /* The hero image */
 .hero-image {
     /* The image used */
-    background-image: url(~/images/salad1.jpg);
+    background-image: url(/Users/leoxia/Desktop/romainedelivery.github.io/images/salad4.jpg);
     background-size: contain;
 
     /* Set a specific height */
-    height: 50%;
+    height: 60%;
 
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin-top: 8%;
 }
 
 /* Place text in the middle of the image */
@@ -43,5 +59,165 @@ nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: black;
+    /*background-color: white;*/
+    /*padding:3%;*/
+    width: 70%;
+    text-align: left;
 }
+
+.hero-text h1 {
+	font-weight: black;
+	font-size: 30px;
+}
+
+.hero-text h2 {
+	font-weight: normal;
+	margin-top: -15px;
+}
+
+.hero-text h3 {
+	font-weight: normal;
+	color:white;
+	font-size: 18px;
+	margin: 0;
+}
+
+#mc_embed_signup {
+	color:black;
+	background-color: #7DAF9C;
+	padding:20px;
+	width: 42%;
+	border-radius: 10px;
+}
+
+#mc_embedded_subscribe {
+}
+
+.mc-field-group {
+	display: inline-block;
+	width: 75%;
+}
+
+#mc_button {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+input {
+    background-color: #FBFBFB;
+    color: black;
+    width: 100%;
+    border: 1px solid #dddddd;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+input[type="submit"] {
+    background-color: none;
+    border: none;
+    font-family: FontAwesome;
+}
+
+.fa-button {
+  background: none;
+  padding: 0px;
+  border: none;
+  color:white;
+}
+
+.arrow {
+	position: relative;
+    text-align: center;
+    padding: 3rem;
+    z-index: 2;
+}
+.arrow a {
+	color: #7DAF9C;
+	font-size: 30px;
+
+}
+
+
+
+#service h2{
+    text-align: center;
+}
+
+
+.grid {
+	width: 100%;
+	display: block;
+}
+
+.grid-elem {
+	width: 31%;
+	margin: 0 1%;
+	display: inline-block;
+}
+
+.grid-elem img {
+	width: 100%;
+}
+
+#location h2 {
+	text-align: center;
+}
+
+#location p {
+	display: inline-block;
+	width:40%;
+	float: right;
+	margin: 0 5%;
+	margin-top: 10%;
+}
+
+#location iframe {
+	display:inline-block;
+	/*margin: 0 auto;*/
+	align-content: left;
+	margin: 0 5%;
+	width: 40%;
+}
+
+#money h2 {
+	text-align: center;
+}
+
+#money p {
+	text-align: center;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+#sign-up {
+	text-align: center;
+	background-color: #7DAF9C;
+	padding:10px;
+	border-radius: 10px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+#sign-up h2{
+	text-align: center;
+	color:white;
+}
+
+#sign-up h3{
+	text-align: center;
+	font-weight: normal;
+	color:white;
+}
+
+footer {
+	margin-top: 5%;
+	margin-bottom: 2%;
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+
+
+
